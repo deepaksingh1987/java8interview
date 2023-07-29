@@ -36,6 +36,7 @@ public class StreamExample1 {
 		names.add("Deepak");
 		names.add("Kumar");
 		names.add("Singh");
+		names.add("Aahan");
 		
 		Stream<String>stream=names.stream();
 		stream.forEach(n -> System.out.println(n));
