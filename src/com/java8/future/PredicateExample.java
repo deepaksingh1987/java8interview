@@ -10,7 +10,7 @@ public class PredicateExample {
 		Predicate<Integer>equalsto=a->(a==0);
 		
 		boolean l1=lessthan.test(20);
-		System.out.println("LessThan::"+l1);
+		System.out.println("LessThan test::"+l1);
 		
 		boolean l2=greaterThan.test(200);
 		System.out.println("GreaterThan::"+l2);
